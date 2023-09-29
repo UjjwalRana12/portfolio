@@ -63,7 +63,7 @@ transition: all 0.5s;
 }
 @media(max-width:600px){
 .container{
-    background: linear-gradient(#fff,#1b67aa,#143875,#7d98ae),url(/images/templateSI.png);
+    background: linear-gradient(#fff,#1b67aa,#143875,#7d98ae),url(/images/ujji\ logo.jpg);
     background-size: cover;
     background-position: bottom;
 
