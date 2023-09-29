@@ -183,7 +183,7 @@ ul{
     position: absolute;
     left: 0;
     bottom: -10px;
-    background-color: aquamarine;
+    background-color: rgb(60, 49, 185);
     height: 2px;
     box-sizing: border-box;
 
@@ -195,9 +195,9 @@ ul{
     font-size: 16px;
     text-transform: capitalize;
     text-decoration: none;
-    color: aqua;
+    color: rgb(0, 0, 0);
     font-weight: 300;
-    color: aquamarine;
+    color: rgb(38, 29, 155);
     display: block;
     transition: all 0.3s ease-in-out;
 
