@@ -7,7 +7,7 @@
 .container{
     height: 100vh;
     width: 100%;
-    background-image: url(/images/finaltemplate.png);
+    background-image: url(/images/finaltemplate1.png);
     background-size: cover;
     background-position: bottom;
     display: flex;
@@ -43,8 +43,8 @@ transition: all 0.5s;
 }
 .contents .btn:hover{
     color: blue;
-    background-color: rgb(130, 38, 38);
-    border: 2px solid red;
+    background-color: rgb(247, 241, 241);
+    border: 2px solid rgb(37, 112, 224);
     
 
 }
@@ -63,7 +63,8 @@ transition: all 0.5s;
 }
 @media(max-width:600px){
 .container{
-    background: linear-gradient(#fff,#1b67aa,#143875,#7d98ae),url(/images/ujji\ logo.jpg);
+    /* background: linear-gradient(#fff,#1b67aa,#143875,#7d98ae),url(/images/ai\ head\ set\ image.jpg); */
+    background: url(/images/ai\ head\ set\ image.jpg);
     background-size: cover;
     background-position: bottom;
 
@@ -78,6 +79,8 @@ transition: all 0.5s;
 }
 .contents .head-title h2{
     font-size: 52px;
+    opacity: 1;
+    padding: 2px;
 }
 .contents .head-title h3{
     font-size: 52px;
