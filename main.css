@@ -141,4 +141,32 @@ transition: all 0.5s;
  
 
 }
+.cont{
+    max-width: 100%;
+    /* background-color: red; */
+    margin: auto;
+    height: 100vh;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
 
+.footer{
+    background-color: rgb(253, 253, 253);
+    padding: 70px,0;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: rgb(17, 173, 28);
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    
+}
