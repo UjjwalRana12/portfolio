@@ -168,5 +168,9 @@ ul{
     color: rgb(17, 173, 28);
     text-transform: capitalize;
     margin-bottom: 30px;
+
+}
+.second{
+    line-height: 1.5;
     
 }
