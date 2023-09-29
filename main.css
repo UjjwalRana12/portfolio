@@ -48,3 +48,42 @@ transition: all 0.5s;
     
 
 }
+@media(max-width:850px){
+    .container .contents{
+        width: 70%;
+        padding-left: 80px;
+    }
+.contents .head-title h2{
+    font-size: 68px;
+}
+.contents .head-title h3{
+    font-size: 44px;
+}
+
+}
+@media(max-width:600px){
+.container{
+    background: linear-gradient(#fff,#1b67aa,#143875,#7d98ae),url(/images/templateSI.png);
+    background-size: cover;
+    background-position: bottom;
+
+}
+
+
+
+.container .contents{
+    width: 100%;
+    color: aliceblue;
+    padding: 260px 30px 0px;
+}
+.contents .head-title h2{
+    font-size: 52px;
+}
+.contents .head-title h3{
+    font-size: 52px;
+}
+
+ 
+
+}
+
