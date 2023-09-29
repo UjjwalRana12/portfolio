@@ -141,15 +141,21 @@ transition: all 0.5s;
  
 
 }
+.second{
+    /* margin-top: 30px; */
+    line-height: 1.5;
+
+}
 .cont{
     max-width: 100%;
-    /* background-color: red; */
+    
     margin: auto;
     height: 100vh;
 }
 .row{
     display: flex;
     flex-wrap: wrap;
+    
 }
 ul{
     list-style: none;
@@ -168,9 +174,20 @@ ul{
     color: rgb(17, 173, 28);
     text-transform: capitalize;
     margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
 
 }
-.second{
-    line-height: 1.5;
-    
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: aquamarine;
+    height: 2px;
+    box-sizing: border-box;
+
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
 }
