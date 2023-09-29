@@ -7,6 +7,9 @@
 .newhead{
     margin-top: -259px;
 }
+.desc{
+    font-size: 25px;
+}
 .tophead li{
    display: inline-block;
     z-index: 1;
@@ -97,6 +100,21 @@ transition: all 0.5s;
 }
 .newhead{
     margin-top: 40px;
+}
+
+
+
+.newhead li:nth-child(1){
+   background-color: #54b3d6;
+
+}
+.newhead li:nth-child(2){
+   background-color: #54b3d6;
+
+}
+.newhead li:nth-child(3){
+   display: none;
+
 }
 .newhead li:nth-child(4){
    display: none;
